@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
+    <v-app-bar app color="primary" dark absolute>
       <div class="d-flex align-center"></div>
 
       <v-spacer></v-spacer>
@@ -17,6 +17,7 @@
     </v-app-bar>
 
     <v-content>
+      <Welcome />
       <HelloWorld />
     </v-content>
   </v-app>
@@ -24,12 +25,13 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import Welcome from "./components/Welcome";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld
+    HelloWorld, Welcome
   },
 
   data: () => ({
