@@ -1,7 +1,7 @@
 <template>
   <div id="welcomeContainer">
     <div id="imgContainer">
-      <img id="profileImage" src="../assets/hairNGlasses.png" />
+      <img id="profileImage" src="/img/hairNGlasses.png" />
     </div>
     <span id="helloText" class="light-green--text px-auto display-2">&gt;Hi, I'm Dustin_</span>
   </div>
@@ -13,7 +13,7 @@ export default {};
 
 <style>
 #welcomeContainer {
-  background-image: url("../assets/computer1.jpg"),
+  background-image: url("/img/computer1.jpg"),
     linear-gradient(
       180deg,
       white,
@@ -44,7 +44,7 @@ export default {};
   text-align: center;
   display: block;
   margin: 0px auto 0px auto;
-  background: url("../assets/hairNGlassesOrig.png");
+  background: url("/img/hairNGlassesOrig.png");
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.9))

@@ -7,7 +7,7 @@
             <v-img
               class="white--text align-end"
               width="300px"
-              src="@/assets/jwt-site.png"
+              :src="project.imgSrc"
             >
             <!-- TODO: make the above stinking dynamic -->
               <v-card-title>{{project.title}}</v-card-title>

@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "JWT Tool",
-            "imgSrc": "../assets/jwt-site.png",
+            "imgSrc": "/img/jwt-site.png",
             "blurb": "A simple Vue web app to encode/decode a JWT (json web token)",
             "link": "https://dmendoza-jwt-visualization.s3-us-west-2.amazonaws.com/index.html"
         }
