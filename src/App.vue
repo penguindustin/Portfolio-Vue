@@ -16,7 +16,7 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
+    <v-content id="content">
       <Welcome />
       <Projects />
     </v-content>
@@ -39,3 +39,9 @@ export default {
   })
 };
 </script>
+
+<style>
+#content {
+  background: #000;
+}
+</style>

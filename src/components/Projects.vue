@@ -1,5 +1,6 @@
 <template>
   <div>
+    <span class="light-green--text display-2 pb-4" id="projectCaption">Check out what I've made!</span>
     <v-container fluid>
       <v-row>
         <v-col v-for="project in projects" :key="project.title" :lg="3">
@@ -7,7 +8,8 @@
         </v-col>
       </v-row>
     </v-container>
-  </div>
+    </div>
+
 </template>
 
 <script>
@@ -29,5 +31,11 @@ export default {
 <style>
 a {
   text-decoration: none;
+}
+
+#projectCaption {
+  text-align: center;
+  display: block;
+  padding-top: 20px;
 }
 </style>
