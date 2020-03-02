@@ -19,13 +19,11 @@
     <v-content>
       <Welcome />
       <Projects />
-      <HelloWorld />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
 import Welcome from "./components/Welcome";
 import Projects from "./components/Projects";
 
@@ -33,7 +31,7 @@ export default {
   name: "App",
 
   components: {
-    HelloWorld, Welcome, Projects
+    Welcome, Projects
   },
 
   data: () => ({
