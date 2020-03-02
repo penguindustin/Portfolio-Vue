@@ -5,6 +5,30 @@
             "imgSrc": "/img/jwt-site.png",
             "blurb": "A simple Vue web app to encode/decode a JWT (json web token)",
             "link": "https://dmendoza-jwt-visualization.s3-us-west-2.amazonaws.com/index.html"
+        },
+        {
+            "title": "Tribute Page",
+            "imgSrc": "/img/TributePage.png",
+            "blurb": "Ratchet & Clank : One of the best game series of the 2000s",
+            "link": "https://penguindustin.github.io/fccTributePage/"
+        },
+        {
+            "title": "Unity Basics",
+            "imgSrc": "/img/TechnicalDocumentation.png",
+            "blurb": "Technical Documentation on basics of Unity",
+            "link": "https://penguindustin.github.io/fccTechnicalDocumentation/"
+        },
+        {
+            "title": "Delorean  Sale Page",
+            "imgSrc": "/img/LandingPage.png",
+            "blurb": "Example Product Page for your new time travelling machine",
+            "link": "https://penguindustin.github.io/fccLandingPage/"
+        },
+        {
+            "title": "Coding Preferences",
+            "imgSrc": "/img/survey.png",
+            "blurb": "A survey on coding experience and preferences",
+            "link": "https://penguindustin.github.io/fccSurveyPage/"
         }
     ]
 }
