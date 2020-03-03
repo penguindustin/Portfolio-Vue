@@ -19,6 +19,7 @@
     <v-content id="content">
       <Welcome />
       <Projects />
+      <Contact />
     </v-content>
   </v-app>
 </template>
@@ -26,12 +27,13 @@
 <script>
 import Welcome from "./components/Welcome";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 export default {
   name: "App",
 
   components: {
-    Welcome, Projects
+    Welcome, Projects, Contact
   },
 
   data: () => ({
